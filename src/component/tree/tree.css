@@ -1,0 +1,24 @@
+.ant-tree{
+    margin-left: 10px!important;
+    font-size: 12px;
+    color: #333333!important;
+    /* background: #F4F8FC; */
+    min-width: 200px;
+    /* height: 100%; */
+}
+/* .ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+    background: #F4F8FC!important;
+} */
+.add_org_tree .ant-tree.ant-tree-show-line li span.ant-tree-switcher{
+    background: #fff!important;
+}
+.ant-tree li .ant-tree-node-content-wrapper{
+    color: #333333!important;
+}
+:root .ant-tree.ant-tree-show-line li span.ant-tree-switcher.ant-tree-switcher_open:after,
+:root .ant-tree.ant-tree-show-line li span.ant-tree-switcher.ant-tree-switcher_close:after{
+    font-size: 12px!important;
+}
+.ant-tree .anticon{
+    color: #FFC94A!important;
+}

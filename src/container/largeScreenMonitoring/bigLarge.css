@@ -1,0 +1,427 @@
+/* 正常大小样式 */
+body,html{
+    overflow:auto;
+    margin:0;
+    padding:0;
+    }
+    .largeScreenWrap li{
+        list-style: none;
+        letter-spacing: normal;
+        text-decoration: none;
+    }
+.largeScreenWrap{
+    width:10299px;height:5793px;
+    margin:0;padding:0;
+    background-image: url(./dbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    color:#ffffff;
+}
+/* 头部 */
+.wraptitle{
+    height:500px;
+    width:100%;
+    background-image: url(./dtitle.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.wraptitle h1{
+    color:#ffffff;
+    font-size: 200px;
+    line-height: 500px;
+    font-weight: 900;
+}
+.wrapContent{
+    width:100%;
+    height:5290px;
+    margin:0;
+    padding:120px;
+}
+/*------------- 左边部分、右边部分的title ----------------*/
+.ltTitle,.rtTitle,.rbTitle{
+    /* background-image:linear-gradient(-270deg, rgba(66,173,255,0.32) ,rgba(76,239,235,0.00) 100%); */
+    background-image: url(./xlefttit.png);
+    background-size: 100% 100%;
+    height:248px;
+    line-height: 248px;
+    width:100%;
+    font-size: 110px;
+    font-weight: 600;
+    padding-left:80px;
+}
+/* +++++++++++++++++++++++++++++=左部分 +++++++++++++++++++++++++++++++++++++++++++*/
+.contLeft{
+    width:2600px;
+    height:auto;
+    float: left;
+}
+/* 左上部分 */
+.leftTop{
+    width:100%;
+}
+
+.ltcont{
+    width:100%;
+    height:3015px;
+    background-image: url(./xleftTop.png);
+    background-size: 100% 100%;
+    margin-top:37.5px;
+}
+.leftTop ul,.leftTop li{
+    margin:0;
+    padding:0;
+    letter-spacing: normal;
+}
+/* 头 */
+.largeMenuTit{
+    width:100%;
+    height:373px;
+    line-height: 373px;
+}
+.largeMenuTit span{
+    display: inline-block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+}
+.largeMenuTit span:nth-child(1){
+    width:20%;
+}
+.largeMenuTit span:nth-child(2){
+    width:45%;
+}
+.largeMenuTit span:nth-child(3){
+    width:35%;
+}
+
+.largeMenuCot {
+    width:100%;
+}
+.largeMenuCot li{
+    text-align: center;
+    font-size: 100px;
+    height:250px;
+    line-height: 250px;
+}
+.largeMenuCot ul:nth-child(1){
+    float: left;
+    width:20%
+}
+.largeMenuCot ul:nth-child(2){
+    float: left;
+    width:45%
+}
+.largeMenuCot ul:nth-child(3){
+    float: left;
+    width:35%
+}
+.vinss,.amountss{
+    font-weight: 400
+}
+/* 排行 */
+.numbersTop li{
+    text-align: center;
+    height:250px;
+    line-height: 250px;
+}
+.numbersTop li span{
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    width:128px;
+    height:128px;
+    line-height: 128px;
+    background: #00A0E9;
+    border-radius: 10px;
+}
+.numbersTop li:nth-child(1) span{
+    text-align: center;
+    display: inline-block;
+    width:128px;
+    height:128px;
+    line-height: 128px;
+    background: #FE6666;
+}
+.numbersTop li:nth-child(2) span{
+    text-align: center;
+    display: inline-block;
+    width:128px;
+    height:128px;
+    line-height: 128px;
+    background: #EAB21E;
+}
+.numbersTop li:nth-child(3) span{
+    text-align: center;
+    display: inline-block;
+    width:128px;
+    height:128px;
+    line-height: 128px;
+    background: #30C98B;
+}
+/* 左下部分 */
+.leftBottom{
+    width:100%;
+    height:auto;
+}
+.lbTitle{
+    background-image: url(./xlefttit.png);
+    background-size: 100% 100%;
+    height:248px;
+    line-height: 248px;
+    width:100%;
+    padding-left:80px;
+    margin-top:85px;
+}
+.lbTitle b{
+    font-size: 110px;
+    font-weight: 600;
+}
+.lbTitle span{
+    float: right;
+    padding-right: 100px;
+    font-weight: 400;
+    font-size: 80px;
+}
+.lbcont{
+    width:100%;
+    height:1400px;
+    background-image: url(./xleftBottom.png);
+    background-size: 100% 100%;
+    margin-top:37.5px;
+}
+
+
+/* +++++++++++++++++++++++++++++++++中部分+++++++++++++++++++++++++ */
+.contCenter{
+    width:4680px;
+    margin-left:88px;
+    float: left;
+}
+.centerTop{
+    width:100%;
+}
+.ctTitle{
+    background-image: url(./xconttit.png);
+    background-size: 100% 100%;
+    height:248px;
+    line-height: 248px;
+    width:100%;
+    font-size: 110px;
+    font-weight: 600;
+    padding-left:80px;
+}
+.ctConts{
+    width:100%;
+    height:3015;
+    /* background: #ffffff; */
+    margin-top:37.5px;
+    position: relative;
+}
+#ctCont{
+    width:100%;
+    height:3015px;
+}
+.ctcTit{
+    padding-left:100px;
+    position: absolute;
+    top:0;
+    z-index:999;
+    width:48%;
+}
+.leijiTan{
+    font-size:100px;
+    height:310px;
+    line-height: 310px;
+}
+.nowTimes{
+    position: absolute;
+    bottom: 0;
+    left:100px;
+    color:#999999;
+    font-size: 120px;
+}
+.numsTan{
+    font-size: 180px;
+    position: relative;
+    width:100%;
+    /* height:270px;-----------------------暂注 */
+    overflow: hidden;
+}
+.backgroundPosition{
+    white-space: nowrap;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.backgroundPosition div{
+    width:180px;
+    height:240px;
+    float: left;
+    text-align: center;
+    line-height: 240px;
+    background-image: url(./nums.png);
+    background-size: 100% 100%;
+    font-size: 180px;
+    margin-right: 20px;
+    font-weight: 600;
+    
+}
+.centerBottom{
+    width:100%;
+    margin-top:85px;
+}
+.cbTitle{
+    background-image: url(./xconttit.png);
+    background-size: 100% 100%;
+    height:248px;
+    line-height: 248px;
+    width:100%;
+    padding-left:80px;
+}
+.cbTitle b{
+    font-size: 110px;font-weight: 600;
+}
+.cbTitle span{
+    float: right;
+    padding-right: 100px;
+    font-weight: 400;
+    font-size: 80px;
+}
+.cbCont{
+    width:100%;
+    height:1400px;
+    background-image: url(./xcentBottom.png);
+    background-size: 100% 100%;
+    margin-top:37.5px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++右部分 +++++++++++++++++++++++++++++++*/
+.contRight{
+    width:2600px;
+    margin-left:88px;
+    float: right;
+}
+/* 右上部分 */
+.rtTits{
+    margin-top: 87.5px;
+}
+.rtCont{
+    margin-top:37px;
+    background-image: url(./xrtCont.png);
+    width:100%;
+    background-size: 100% 100%;
+    height:757px;
+    line-height:757px;
+}
+.reContImg1{
+    width:400px;
+    height:400px;
+    background-image: url(./xrt1.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 178px;
+    margin-left: 211px;
+}
+.reContImg2{
+    width:400px;
+    height:400px;
+    background-image: url(./xrt2.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 178px;
+    margin-left:211px;
+}
+.reContImg3{
+    width:400px;
+    height:400px;
+    background-image: url(./xrt3.png);
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 178px;
+    margin-left:211px;
+}
+.rtCont1,.rtCont2,.rtCont3{
+    float: left;
+    padding-left: 206px;
+}
+.rtCont1 b,.rtCont2 b,.rtCont3 b{
+    font-size: 180px;
+    font-weight: 600;
+    width:950px;
+    height:100%;
+    float: left;
+    text-align: right;
+}
+.rtCont1 span,.rtCont2 span,.rtCont3 span{
+    font-weight: 400;
+    font-size: 100px;
+    padding-left: 75px;
+    width:250px;
+    float: left;
+    text-align: left;
+}
+/* 右下部分 */
+.rbTitle{
+    margin-top:85px;
+}
+.rbCont{
+    margin-top:37.5px;
+    background-image: url(./xleftBottom.png);
+    width:100%;
+    background-size: 100% 100%;
+    height:1400px;
+
+}
+
+
+
+
+/* ==========================数字滚动 */
+
+.column{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 180px;
+    line-height: 180px;
+    margin:30px 39px 30px 50px; 
+    -webkit-transition: -webkit-transform 300ms;
+    transition: -webkit-transform 300ms;
+    transition: transform 300ms;
+    transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.num {
+    -webkit-transition: opacity 500ms, text-shadow 100ms;
+    transition: opacity 500ms, text-shadow 100ms;
+    opacity: 0;
+}
+.colon{
+    display: inline-block;
+    margin:0 9px;
+}
+.num.visible {
+    opacity: 1.0;
+    text-shadow: 5px 5px 0px #336699;
+}
+
+.num.close {
+    visibility: hidden;
+}
+
+.num.far {
+    visibility: hidden;
+}
+
+.num.distant {
+    visibility: hidden;
+}
+.noneDatas{
+    font-size:100px;
+    text-align: center;
+    height:1400px;
+    line-height: 1400px;
+}

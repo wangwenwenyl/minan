@@ -1,0 +1,61 @@
+.menu-icon{vertical-align:middle;margin-right:10px;}
+.ant-menu-submenu{color:#fff;}
+.content{margin:10px;}
+.content-title{background:#fff;border:1px solid #EBEDF8;padding:30px 31px 20px 31px;width:100%;box-shadow: 0 2px 4px 0 rgba(216,216,216,0.50);}
+.ant-layout-content{width:100% !important;}
+.ant-layout{background:#FAFBFC !important;}
+.ant-collapse-header{display:inline-block;position: absolute !important;left:48%;width:70px;background:#fff;border:none;bottom:-40px;padding:0 0 5px 40px !important;border:1px solid #EBEDF8;border-top:none;line-height:10px !important;color:#999 !important;font-size: 11px;box-shadow: 0 2px 4px 0 rgba(216,216,216,0.50);}
+.ant-collapse-item{border:none !important;position: relative !important;}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow svg{ transform:rotate(90deg) !important;}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow svg{ transform:rotate(90deg) !important;}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header[aria-expanded="true"] .anticon-right svg{transform: rotate(-90deg) !important;}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow{left:45px !important;}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow{left:45px !important;}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header > span{margin-left:-25px;display:inline-block;margin-top:5px;}
+.ant-form label{font-size:13px !important;}
+.searchType .ant-form-item-label{width:78px;}    
+.toggle .ant-collapse-content > .ant-collapse-content-box{padding:0 !important;}
+.searchType{width: 90%;position: relative;}
+.searchType .btn{width:85px;height:28px !important;margin-right:20px;text-align: center;}
+.oprateHead .btn{min-width:74px; height:26px !important;margin-right:15px;text-align: center;margin-top:25px;background:#fff !important;}
+.oprateHead{margin-left:10px;}
+.checks{ height: 28px;line-height: 28px;margin-top:17px;padding: 0px 20px 0px 10px;border:1px solid #E4E4E4;display: inline-block;margin-right:15px;color:#999;min-width: 66px;max-width:113px;overflow: hidden;
+    text-overflow: ellipsis;white-space: nowrap;position: relative;border-radius: 1px;font-size:12px;text-align: center;}
+.checks:hover{cursor: pointer;}
+.ant-input{height:28px !important;border-radius:2px !important;}
+.typearrow{margin-left:5px;margin-top:-5px}
+.typemore{position:absolute;right:-110px;top:-5px;font-size:12px;text-align: center;padding-right:10px;}
+.moreBox{margin-top:-50px;margin-left:79px;overflow:hidden;min-height:50px;}
+.typeTitle{display:inline-block;width:78px;text-align:right;line-height:40px}
+.ant-btn{border-radius:1px !important;padding:0 15px !important;}
+.ant-table-body th{background:#F1F2F4 !important;height:40px !important;}
+.table .ant-table-body{min-height:425px;}
+.table{box-shadow: 0 4px 4px 0 rgba(216,216,216,0.50);background: #fff;margin-top:25px;}
+.ant-table{line-height:0 !important;}
+.table_list{margin-top:20px !important;}
+.ant-table-fixed .ant-table-tbody tr td{background:#fff;}
+.ant-btn-background-ghost{border-radius: 1px}
+.ant-table-tbody td{text-align: center !important;}
+.ant-table-thead th{text-align: center !important;}
+/* .ant-table-thead th:last-child{text-align: left !important;} */
+.ant-pagination-item-active{background: #3689FF !important;border-color:#3689FF !important;}
+.ant-pagination-item-active a{color:#fff !important;}
+.ant-table-thead > tr:first-child > th:first-child{background: #F1F2F4 !important;}
+.ant-table-fixed-left{border-left:1px solid #EBEDF8;}
+.ant-table-fixed-right{border-right:1px solid #EBEDF8;}
+.oprateHead img{vertical-align:middle;margin-right:5px;}
+.ant-form-explain{position:absolute !important;font-size:12px;}
+.ant-table-pagination{margin:25px 0px !important;}
+.ant-popover-inner-content:hover{cursor: pointer;}
+.remove-img{position: absolute;right:5px; top:10px;}
+.searchBtn{margin-top:5px;vertical-align:top;margin-left:40px;}
+.clearBtn{margin-Top:5px;vertical-Align:top;}
+.action span:hover{cursor: pointer;}
+.action span{color:#3689FF;}
+.operation div{text-align: left;}
+.ant-input,.ant-calendar-range-picker-input,.ant-select-selection-selected-value{font-size: 12px !important;color:#999 !important;font-family:'微软雅黑'}
+/* -------------------------------------------- zmj ------------------------------------------ */
+.top_RowOnly{margin:10px;height:88px;line-height:88px;background: #fff;border: 1px solid #EBEDF8;border-radius: 1px;}
+.ant-table-scroll table .ant-table-fixed-columns-in-body{
+    visibility: visible
+  }

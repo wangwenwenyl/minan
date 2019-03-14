@@ -1,0 +1,46 @@
+.header_all{
+    color: #FFFFFF;
+}
+.user{
+    text-align: right;
+}
+.user_icon{
+    margin-left: 38px;
+}
+.user_name{
+    margin-left: 10px;
+    color: #333333;
+}
+.warn{
+    display: inline-block;
+}
+.warn_icon{
+    background: #FEAF27;
+    display: inline-block;
+    width: 19px;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    top: -8px;
+    left:-8px;
+    font-size: 10px;
+}
+.waring_popover .ant-popover-inner-content{
+    padding: 0;
+    margin: 12px 16px 0 16px;
+}
+.warings{
+    width: 283px;
+}
+
+.warings p>span:first-child{
+    float:left;
+    margin-right: 10px;
+    height: 40px;
+    line-height: 30px;
+}
+.waring_popover .ant-popover-title{
+    padding: 0!important;
+}
